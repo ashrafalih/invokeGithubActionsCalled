@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      parameter1: ${{ github.event.client_payload.prameter1 }} #this parameter will reached by caller workflow
+      parameter1: ${{ github.event.client_payload.parameter1 }} #this parameter will reached by caller workflow
       parameter2: ${{ github.event.client_payload.parameter2 }}
     
     steps:
