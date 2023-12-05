@@ -21,7 +21,8 @@ jobs:
         run: |
           echo add other actions to build,
           echo test, and deploy your project
-          echo $parameter1 #this parameters will be featching from the called workflow
+          echo $parameter1 
+          #this parameters will be featching from the called workflow
           echo $parameter2
           
     
